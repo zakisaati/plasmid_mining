@@ -1,9 +1,15 @@
-# Plasmids annotation
-for file in *.fasta; do sample=${file%%.fasta}; echo "prokka --outdir ${sample} --centre X --cpus 0 --prefix ${sample} ${file}"; echo "rm ${sample}/${sample}.err ${sample}/${sample}.ffn ${sample}/${sample}.fsa ${sample}/${sample}.log ${sample}/${sample}.sqn ${sample}/${sample}.tbl ${sample}/${sample}.txt ${sample}/${sample}.fna"; echo "gzip ${sample}.gff"; done > prokka_commands.sh
+### Plasmids annotation
 
+
+~~~
+$ for file in *.fasta; do sample=${file%%.fasta}; echo "prokka --outdir ${sample} --centre X --cpus 0 --prefix ${sample} ${file}"; done > prokka_commands.sh
+~~~
+~~~
+$ bash prokka_commands.sh
+~~~
 ---------
 
-# Search for Biosynthetic Gene Clusters (BGCs) related with the production of Specialized Metabolites
+### Search for Biosynthetic Gene Clusters (BGCs) related with the production of Specialized Metabolites
 
 ~~~
 $ mkdir gbk_files
@@ -14,7 +20,7 @@ $ mv */*.gbk gbk_files
 ~~~
 $ cd gbk_files
 ~~~
-c conda activate antismash
+$ conda activate antismash
 ~~~
 ~~~
 $ for file in *.gbk
@@ -29,7 +35,7 @@ $ bash antismash_commands.sh
 
 ---------
 
-# Analysis of BGCs diversity
+### Analysis of BGCs diversity
 
 ~~~
 $ mkdir BGCs

@@ -7,7 +7,7 @@ There, the authors categorized the microbial plasmids within plasmid taxonomic u
 ---------
 1. Firtsly, I downloaded all the available plasmids within the refseq database: https://ftp.ncbi.nlm.nih.gov/refseq/release/plasmid/
 
-2. To split the files into individual files:
+2. To split the files into individual files with [split-fasta](https://github.com/uditvashisht/split-fasta):
 ~~~
 $ conda activate split-fasta
 ~~~

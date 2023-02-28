@@ -20,6 +20,7 @@ $ mv */*.gbk gbk_files
 ~~~
 $ cd gbk_files
 ~~~
+~~~
 $ conda activate antismash
 ~~~
 ~~~

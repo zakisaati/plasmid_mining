@@ -3,7 +3,10 @@
 The gene calling was done through [prokka](https://github.com/tseemann/prokka) using the following command:
 
 ~~~
-$ for file in *.fasta; do sample=${file%%.fasta}; echo "prokka --outdir ${sample} --centre X --cpus 0 --prefix ${sample} ${file}"; done > prokka_commands.sh
+$ for file in *.fasta
+do sample=${file%%.fasta}
+echo "prokka --outdir ${sample} --centre X --cpus 0 --prefix ${sample} ${file}"
+done > prokka_commands.sh
 ~~~
 ~~~
 $ bash prokka_commands.sh

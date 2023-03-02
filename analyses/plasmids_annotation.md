@@ -44,6 +44,7 @@ $ bash antismash_commands.sh
 
 ### Analysis of BGCs diversity
 
+Then, the similarity among predicted BGCs was calculated with [BiG-SCAPE](https://bigscape-corason.secondarymetabolites.org/). We included a search for similar BGCs within the [MiBIG](https://mibig.secondarymetabolites.org/) database. The input for this analysis consist on a folder ("BGCs/") containing each single BGC region in gbk format (-> these files are within the antiSMASH output folders)
 ~~~
 $ mkdir BGCs
 ~~~

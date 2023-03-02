@@ -15,6 +15,8 @@ $ bash prokka_commands.sh
 
 ### Search for Biosynthetic Gene Clusters (BGCs) related with the production of Specialized Metabolites
 
+[antiSMASH](https://docs.antismash.secondarymetabolites.org/install/) was used to search for putative BGCs in each of the plasmids. To do so, I used as input each of the annotated gbk files from the previous prokka annotation.
+
 ~~~
 $ mkdir gbk_files
 ~~~

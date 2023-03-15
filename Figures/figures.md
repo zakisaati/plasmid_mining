@@ -44,7 +44,7 @@ Supplementary figure 1:
 ### Bubbleplots
 Figure 3c:
 ~~~
-> data <- read.csv("/path-to/orders-BGC-types-sin-Saccharide.csv")
+> data <- read.csv("/path-to/orders-BGC-types-bubbleplot.csv")
 ~~~
 
 ~~~
@@ -65,7 +65,7 @@ Figure 2a:
 
 Figure 1a:
 ~~~
-> data <- read.csv("/path-to/table_num_BGCs-para-graficas.csv")
+> data <- read.csv("/path-to/table_num_BGCs-density.csv")
 ~~~
 ~~~
 > ggplot(data, aes(x=nº.BGCs, group= TaxPhylum, fill= TaxPhylum)) + geom_density(adjust=1.5) + theme_classic() + facet_wrap(~ TaxPhylum) + scale_color_manual(values=c("#2727a3", "#D95F02", "#7570B3", "#E7298A", "#66A61E", "#E6AB02", "#A6761D", "grey", "black", "#27a3a3", "red", "green")) + scale_fill_manual(values=c("#2727a3", "#D95F02", "#7570B3", "#E7298A", "#66A61E", "#E6AB02", "#A6761D", "grey", "black", "#27a3a3", "red", "green")) + theme_classic()

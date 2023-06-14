@@ -1,6 +1,6 @@
 # Global map of specialized metabolites encoded in prokaryotic plasmids
 
-This repository contains the codes used for generating the data contained in the article "Global map of specialized metabolites encoded in prokaryotic plasmids" (Saati-Santamaría, Z. Microbiology Spectrum. In proofs.).
+This repository contains the codes used for generating the data contained in the article "[Global map of specialized metabolites encoded in prokaryotic plasmids](https://journals.asm.org/eprint/MRHIDYB7MMEGJG8D7ZVS/full)" (Saati-Santamaría, Z. Microbiology Spectrum. https://doi.org/10.1128/spectrum.01523-.23).
 
 <p align="center">
  <img width="825" alt="Captura de pantalla 2023-02-28 a las 14 25 01" src="https://user-images.githubusercontent.com/50806485/221867215-69b0baf4-d897-47f3-888f-7afb1354efcb.png">
@@ -18,7 +18,7 @@ This repository contains the codes used for generating the data contained in the
 ---
 
 ### Citation
-Saati-Santamaría, Z.  Global map of specialized metabolites encoded in prokaryotic plasmids. Microbiology Spectrum. In proofs.
+Saati-Santamaría, Z.  Global map of specialized metabolites encoded in prokaryotic plasmids. Microbiology Spectrum. https://doi.org/10.1128/spectrum.01523-.23
 
  ---
 
